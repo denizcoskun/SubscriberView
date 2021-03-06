@@ -15,7 +15,7 @@ Add the following dependency to your Package.swift file:
 ## Usage
 
 ```swift
-// without SubscriverView 
+// without SubscriberView 
 
 struct ContentView: View {
     let publisher = Just(0)
