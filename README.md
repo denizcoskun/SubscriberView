@@ -19,7 +19,7 @@ Add the following dependency to your Package.swift file:
 
 struct ContentView: View {
     let publisher = Just(0)
-    let value: Int = 0
+    @State let value: Int = 0
     
     var body: some View {
         Text(value)
@@ -37,7 +37,7 @@ struct ContentView: View {
 
     var body: some View {
         SubscriberView(publisher) {
-            Text($0)
+            Text("\($0)")
         }
     }
 }
