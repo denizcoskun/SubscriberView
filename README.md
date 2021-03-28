@@ -8,7 +8,7 @@ SubscriberView is a simple SwiftUI View that deals with publishers in a much str
 Add the following dependency to your Package.swift file:
 
 ```swift
-.package(url: "https://github.com/denizcoskun/SubscriberView.git", from: "1.0.0")
+.package(url: "https://github.com/denizcoskun/SubscriberView.git", from: "1.0.1")
 ```
 
 
