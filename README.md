@@ -5,11 +5,10 @@ SubscriberView is a simple SwiftUI View that deals with publishers in a much str
 ## Installation
 
 ### Swift Package Manager
-Add the following dependency to your Package.swift file:
 
-```swift
-.package(url: "https://github.com/denizcoskun/SubscriberView.git", from: "1.0.1")
-```
+- File > Swift Packages > Add Package Dependency
+- Add `https://github.com/denizcoskun/SubscriberView.git`
+- Select "Up to Next Major" with "1.0.1"
 
 
 ## Usage
